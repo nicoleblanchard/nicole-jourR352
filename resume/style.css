@@ -1,8 +1,5 @@
 head { 
-    text-align: center;
-    font-style: bold;
-    font-weight: 400;
-    text-transform: capitalize;
+    
 }
 body {
     background-color: linen;
@@ -11,9 +8,10 @@ body {
     font-family:open sans-serif'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 h1 {
     color:#33485e;
-    ;
+    text-align: center;
     font-style: bold;
-    font-display: uppercase;} 
+    font-weight: 400;
+    text-transform: capitalize;} 
 h2 { 
 }
 
