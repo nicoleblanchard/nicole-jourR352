@@ -18,6 +18,7 @@ h1 {
     font-family:Arial, Helvetica, sans-serif } 
 h2 {  background-color: #33485e;
     color:white;
+    text-transform: uppercase;
 }
 
 h3 {
