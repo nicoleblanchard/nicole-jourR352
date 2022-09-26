@@ -24,13 +24,16 @@ h2 {  background-color: #33485e;
     text-transform: uppercase;
 }
 
-h3 {
+h3 { font-weight: 600; 
+    font-size: 150;
 }
 
-h4 {
+h4 { font-weight:400 ; 
+    font-size: 150;
 }
 
-h5 {
+h5 { font-weight: 400;
+    font-size: 100;
 }
 
 p { }
