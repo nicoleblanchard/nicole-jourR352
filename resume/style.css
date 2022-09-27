@@ -1,9 +1,11 @@
+
+/*style for my resume*/
 head { font-family: Arial, Helvetica, sans-serif;
     color:rgb(61, 58, 58);
-    font-size: 300;
     font-weight: 400;
-    
 }
+
+/*standard font and size for sheet, unless specificed otherwise*/
 body {
     background-color: rgba(249, 247, 237, 0.781);
     font-style:bold;
@@ -12,6 +14,7 @@ body {
     color: rgb(61, 58, 58);
     font-size: 100;
 }
+/*Name at the top of my page*/
 h1 {
     color:#33485e;
     text-align: center;
@@ -19,22 +22,34 @@ h1 {
     font-weight: 400;
     font-size: 300;
     text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif } 
+    font-family:Arial, Helvetica, sans-serif; 
+} 
+
+/*Work expiernce, skills and education style */
 h2 {  background-color: #33485e;
     color:white;
     text-transform: uppercase;
-}
+    font-size: 150;
+    font-weight: 400;
 
+}
+/* Jobs I held */
 h3 { font-weight: 600; 
     font-size: 150;
 }
 
+/*companies I worked for*/
 h4 { font-weight:400 ; 
     font-size: 150;
 }
 
+/* dates of work*/
 h5 { font-weight: 400;
     font-size: 100;
 }
 
+/* font size for non-heading writing*/
 p { font-size: 100; }
+
+/*unordered list font size*/
+ul { font-size: 100;}
