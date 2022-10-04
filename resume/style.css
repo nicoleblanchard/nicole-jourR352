@@ -134,6 +134,7 @@ Next, target the items in the "menu" list (and only this list). Set those items 
 
 .menu ul {
     margin: 0 auto;
+    width: 60%;
 }
 
 /*Add an id of "degrees" to the unordered list in the education section. 
