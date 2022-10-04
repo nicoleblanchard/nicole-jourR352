@@ -190,3 +190,10 @@ Center by giving adding "margin:0 auto;" and give it a bottom margin of 30 pixel
 Add the container ID near the top of your stylesheet (under BODY). 
 Give it a width of 100%, a maximum width of 1200 pixels and center the div by giving it a margin of "0 auto". 
 Add 50 pixels of padding to the bottom.*/
+#container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
