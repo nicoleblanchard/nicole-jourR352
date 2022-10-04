@@ -177,7 +177,7 @@ Give that a font weight of 600 and center the text. Give that element a top marg
 Give it a width of 60% with a minimum width of 300 pixels. 
 Center by giving adding "margin:0 auto;" and give it a bottom margin of 30 pixels. */
 
-.top {
+#top {
     width: 60%;
     min-width: 300px;
     margin: 0 auto;
