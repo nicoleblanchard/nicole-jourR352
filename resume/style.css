@@ -68,6 +68,9 @@ Set the margin to "0 auto" to center*/
 #name {
     width: 60% ;
     border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     border-style: solid;
     border-color: #33485e;
     margin-block: center;
