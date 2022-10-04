@@ -89,7 +89,7 @@ Set the width at 70 percent and the minimum width at 300 pixels. */
 Change font size to 1.25em */
 
 .organization {
-    font-size: 125em;
+    font-size: 1.25em;
 }
 
 /*Change the Heading 5 tags in your html document and stylesheet to a div with a class of "date".
