@@ -18,6 +18,7 @@ body {
     font-size: 100;
 }
 /*Name at the top of my page*/
+
 h1 {
     color: #33485e;
     text-align: center;
@@ -26,8 +27,7 @@ h1 {
     font-size: 300;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif; 
-    box-sizing: 100px;
-    border-color: #33485e;
+    
 } 
 
 /*Work expiernce, skills and education style */
@@ -59,3 +59,21 @@ p { font-size: 100; }
 
 /*unordered list font size*/
 ul { font-size: 100;}
+
+/*A solid border on the bottom set to 1 pixel with a color of #33485e. 
+Set the width at 60 percent and the minimum width at 300 pixels. 
+Set the margin to "0 auto" to center*/
+
+#name {
+    width: 60% ;
+    margin: ;
+    padding: ;
+    margin: center ;
+    border-width: 60%;
+    border-color: #33485e;
+}
+
+/* A margin of 10 pixels on the bottom, 20 to the top, and 0 on all other sides.
+Set the width at 70 percent and the minimum width at 300 pixels. */
+
+#sectionheader
