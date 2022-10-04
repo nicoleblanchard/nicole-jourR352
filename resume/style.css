@@ -73,7 +73,7 @@ Set the margin to "0 auto" to center*/
     border-right: 0px;
     border-style: solid;
     border-color: #33485e;
-    margin-block: center;
+    align-items: center;
     border-width: 60%;
     min-width: 300px;
 }
