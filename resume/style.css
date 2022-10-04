@@ -66,14 +66,23 @@ Set the margin to "0 auto" to center*/
 
 #name {
     width: 60% ;
-    margin: ;
-    padding: ;
-    margin: center ;
-    border-width: 60%;
+    border-bottom: 1px;
     border-color: #33485e;
+    margin: 0 auto center;
+    border-width: 60%;
+    min-width: 300px;
 }
 
 /* A margin of 10 pixels on the bottom, 20 to the top, and 0 on all other sides.
 Set the width at 70 percent and the minimum width at 300 pixels. */
 
-#sectionheader
+#sectionheader {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70%;
+    min-width: 300px;
+}
+
+#
