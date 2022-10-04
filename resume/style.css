@@ -81,8 +81,57 @@ Set the width at 70 percent and the minimum width at 300 pixels. */
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    width: 70%;
+    width: 70% ;
     min-width: 300px;
 }
 
-#
+/*Change the Heading 4 tags in your html document and stylesheet to a div with a class of "organization". 
+Change font size to 1.25em */
+
+.organization {
+    font-size: 125em;
+}
+
+/*Change the Heading 5 tags in your html document and stylesheet to a div with a class of "date".
+ Leave the styling as is, but set the margin at the top to 2 pixels, while setting all other margins to 0 pixels.*/
+
+ .date { 
+margin-top: 2px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+/* Add a class of "description" to all of the paragraph elements on the page. 
+Leave the styling as is, but set the margin at the top and bottom to 10 pixels, 
+while setting all other margins to 0 pixels. */
+
+.description {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Add a class of "menu" to the unordered list containing your contact information. 
+In your stylesheet, set the margin and padding for this list on all sides to 0px (you may use one value to do this for margin and padding), 
+and align the text to the center.
+Next, target the items in the "menu" list (and only this list). Set those items to display inline */
+
+.menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    align-items: center;
+    display: inline-block;
+}
+
+/*Add an id of "degrees" to the unordered list in the education section. 
+In your stylesheet, set the top margin to 5 pixels, while leaving all the other sides at 0. */
