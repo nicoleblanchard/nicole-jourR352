@@ -140,5 +140,9 @@ Next, target the items in the "menu" list (and only this list). Set those items 
     display: inline;
 }
 
+.li {
+    display: inline;
+}
+
 /*Add an id of "degrees" to the unordered list in the education section. 
 In your stylesheet, set the top margin to 5 pixels, while leaving all the other sides at 0. */
