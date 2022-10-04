@@ -165,7 +165,7 @@ In your stylesheet, set the top margin to 5 pixels, while leaving all the other 
 Give that a font weight of 600 and center the text. Give that element a top margin of 20 pixels and 0 on all other sides.*/
 #title {
     font-weight: 600;
-    align: center ;
+    align-items: center ;
     margin-top: 20px;
     margin-bottom: 0px;
     margin-left: 0px;
