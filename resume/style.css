@@ -98,6 +98,10 @@ Change font size to 1.25em */
     font-size: 1.25em;
 }
 
+.student {
+    text-align: center;
+}
+
 /*Change the Heading 5 tags in your html document and stylesheet to a div with a class of "date".
  Leave the styling as is, but set the margin at the top to 2 pixels, while setting all other margins to 0 pixels.*/
 
