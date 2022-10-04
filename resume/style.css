@@ -126,13 +126,12 @@ In your stylesheet, set the margin and padding for this list on all sides to 0px
 and align the text to the center.
 Next, target the items in the "menu" list (and only this list). Set those items to display inline */
 
-.menu {
+.menu ul {
     display: inline-block;
     align-items: center;
     margin: 0 auto;
 
 }
-
 
 /*Add an id of "degrees" to the unordered list in the education section. 
 In your stylesheet, set the top margin to 5 pixels, while leaving all the other sides at 0. */
