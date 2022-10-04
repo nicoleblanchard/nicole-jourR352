@@ -125,7 +125,7 @@ In your stylesheet, set the margin and padding for this list on all sides to 0px
 and align the text to the center.
 Next, target the items in the "menu" list (and only this list). Set those items to display inline */
 
-#menu {
+.menu {
     display: inline-block;
     align-items: center;
 
