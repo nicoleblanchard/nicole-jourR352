@@ -146,3 +146,47 @@ Next, target the items in the "menu" list (and only this list). Set those items 
 
 /*Add an id of "degrees" to the unordered list in the education section. 
 In your stylesheet, set the top margin to 5 pixels, while leaving all the other sides at 0. */
+#degrees {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Add an id of "do" to the unordered list in the skills section. 
+In your stylesheet, set the top margin to 5 pixels, while leaving all the other sides at 0. */
+
+#do {
+     margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+
+/* Change the <strong> tag around your title to a div with an id of "title" in both your index and stylesheet. 
+Give that a font weight of 600 and center the text. Give that element a top margin of 20 pixels and 0 on all other sides.*/
+#title {
+    font-weight: 600;
+    align: center ;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+/*Add a class called "top" to the mission statement text at the top. Be sure it is at the bottom of your stylesheet. 
+Give it a width of 60% with a minimum width of 300 pixels. 
+Center by giving adding "margin:0 auto;" and give it a bottom margin of 30 pixels. */
+
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/*Add a div around the entire document with the id "container". 
+Add the container ID near the top of your stylesheet (under BODY). 
+Give it a width of 100%, a maximum width of 1200 pixels and center the div by giving it a margin of "0 auto". 
+Add 50 pixels of padding to the bottom.*/
