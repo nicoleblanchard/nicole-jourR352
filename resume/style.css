@@ -3,6 +3,7 @@
 head { font-family: Arial, Helvetica, sans-serif;
     color:rgb(61, 58, 58);
     font-weight: 400;
+    white-space: 0;
 }
 title { text-transform: uppercase;
     font-size: 150;
@@ -67,8 +68,9 @@ Set the margin to "0 auto" to center*/
 #name {
     width: 60% ;
     border-bottom: 1px;
+    border-style: solid;
     border-color: #33485e;
-    margin: center;
+    margin-block: center;
     border-width: 60%;
     min-width: 300px;
 }
@@ -132,7 +134,7 @@ Next, target the items in the "menu" list (and only this list). Set those items 
     padding-bottom: 0px;
 
     align-items: center;
-    display: inline-block;
+    display: inline;
 }
 
 /*Add an id of "degrees" to the unordered list in the education section. 
