@@ -95,6 +95,7 @@ Change font size to 1.25em */
 
 .organization {
     font-size: 1.25em;
+    width: 60%;
 }
 
 /*Change the Heading 5 tags in your html document and stylesheet to a div with a class of "date".
