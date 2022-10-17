@@ -1,0 +1,86 @@
+#content {
+    margin: 0 auto;
+    width: 1000px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#title { 
+}
+
+#image { align-items: flex-start;
+    font: 10px;
+}
+
+figure {
+    align-items: flex-start;
+    font: 10px;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+p {  font-family: Georgia, serif,;
+    font-size: 13px;
+    width: 900px;
+}
+
+h1 { font-family: Georgia, serif,;
+    font-size: 40px;
+    width: 900px;
+
+}
+
+blockquote { 
+    font: 16px/24px helvetica, sans-serif; 
+    font-style: italic; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    color: red; 
+    margin-left: 50px; 
+    padding-left: 15px; 
+    border-left: 4px solid #ccc;
+    width: 900px;
+    } 
+    
+
+
+
+/*IMAGES*/
+
+#masthead { 
+    width: 1000px;
+    margin: 0 auto;
+   display: block;
+}
+
+#solo-shot{
+    width: 500px;
+    margin: 0 auto;
+   display: block;
+   align-items: flex-end;
+}
+
+#hope-gif {
+    width: 500px;
+    margin: 0 auto;
+   display: block;
+   align-items: flex-start;
+   caption-side: bottom;
+}
+
+#red-room-img{ width: 500px;
+    margin: 0 auto;
+   display: block;
+   text-align: left;
+}
+
+#globe-img { width: 500px;
+    margin: 0 auto;
+   display: block;
+   text-align: left;
+}
+
+/* LINKS AT END*/
