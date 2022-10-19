@@ -3,9 +3,18 @@
 
 #centered {
     margin: 0 auto;
-    width: 1000px;
-
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 800px;
 }
+
+.class {
+    margin: 0 auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 800px;
+}
+
 p { font-size: 12px;
     width: 1000px;
     font-family: Helvetica, Arial,sans-serif;
