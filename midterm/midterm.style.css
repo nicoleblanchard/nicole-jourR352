@@ -31,12 +31,11 @@ body { font-size: 12px;
         font-family: Helvetica, Arial,sans-serif;
     }
 
-#byline {
-    font-family: Times, serif;
-    font-size: 14px;
-    font-style: italic;
-    }
-
+    #byline {
+        font-family: Times, serif;
+        font-size: 19px;
+        }
+    
 
 /*IMAGES*/
 
@@ -110,6 +109,7 @@ margin-left: 0;
 margin-right: auto;
 font-size: 10px;
 float: left;
+padding-left: 4px;
 }
 
 .right { float: right; padding: 0 -60px 0 0;} 
