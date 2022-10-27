@@ -1,51 +1,92 @@
 
 .topper
 {
-background-image: url(images/overhead.jpg);
+background-image: url(images/shutterstock_1210372216.jpg);
 background-size: cover;
+height: 500px;
 }
 
-h1 {
-    color: white;
+#portrait {
     text-align: center;
+}
+
+#portrait img {
+    width: 400px;
+    height: auto;
+    border-radius: 100%;
+}
+
+#rounded 
+{ 
+    align-items: center;
+    border-radius: 100%;
+
+}
+
+#aboutme {
+    border-top-right-radius: 50%;
+    width: 400px;
+}
+
+#pastwork {
+    border-top-left-radius: 50%;
+    width: 400px;
+    float:right ;
+    text-align: end;
+}
+
+.colorbox {
+    background-color: rgba(169, 211, 229, 0.237);
+}
+
+.w-100 {
+    float: right;
+    max-width: 150px;
+}
+
+
+
+h1 {
+    color:  rgb(75, 97, 113);
+    text-align: left;
     font-style: bold;
     font-weight: 400;
-    font-size: 400;
+    font-size: 70px;
    text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif; 
     
 }
 
-h2 { color: white;
-    text-align: center;
+h2 { color: rgb(75, 97, 113);
+    text-align: left;
     font-style: bold;
     font-weight: 400;
-    font-size: 300;
+    font-size: 25px;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif; 
 
 }
- 
- h4 {
-    color: #33485e;
-    text-align: left;
-    font-style: bold;
-    font-weight: 400;
-    font-size: 300;
-    text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif; 
-    
-} 
+  
 
 h3 {  color: #33485e;
     text-align: left;
     font-style: bold;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 25px;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif; 
 
+
 }
+
+h4 {
+    color: #33485e;
+    text-align: left;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;}
 
 h5 { color: #33485e;
     text-align: left;
@@ -63,9 +104,10 @@ h6{
     text-align: left;
     font-style: bold;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 11px;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif; 
+    font-style: italic;
 }
 
 p {
@@ -73,7 +115,7 @@ p {
     text-align: left;
     font-style: bold;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif; 
 }
@@ -85,5 +127,32 @@ ul{ color: #33485e;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif; 
 }
+
+body {
+    font-family: "IBM Plex serif", sans-serif;
+}
+
+
+#masthead {
+    width: auto;
+    padding: 0%;
+
+}
+
+
+
+
+.sands {
+
+}
+
+
+.serif {
+
+}
+
+
+
+
 
 
