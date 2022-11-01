@@ -1,9 +1,10 @@
 
 
 
-#imageboat {
+.imageboat {
           width: 600px;
-          margin-left: 300;
+          padding-top: 20px;
+          text-size-adjust: 10px;
       }
 
 
@@ -24,7 +25,7 @@ title {
 }
 
 .container {
-     padding-top: 10px;
+     padding-top: 20px;
 }
 
 h2 {
@@ -41,3 +42,11 @@ h1 {
 
 }
 
+
+#paragraph2{
+     padding-top: 20px;
+}
+
+.footer {
+     padding-top: 30px;
+}
