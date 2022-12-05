@@ -4,6 +4,7 @@ h1 {
     align-items: center;
     font-weight: bold;
     color: #771430;
+    margin: auto;
 
 }
 
@@ -12,13 +13,14 @@ h3{
     color: #771430;
     font-weight: bold;
     padding-top: 30px;
-    margin-top: 30px;
+    margin: auto;
 }
 
 h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #771430;
     font-weight: bold;
+    margin: auto;
 }
 
 .date {
@@ -31,22 +33,23 @@ font-size: 17px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 word-spacing: 9px;
 width: 600px;
+align-items: center;
+margin: auto;
 
 }
 
 .masthead {
+    margin: auto;
+    width: 650px;
     align-items: center;
-    margin: 0%;
-    width: 500px;
 
 }
 
 
 .conatiner {
-    padding: 100px;
     margin: auto;
     align-items: center;
-    width: 500px;
+    width: 600px;
 }
 
 
@@ -61,7 +64,7 @@ blockquote {
     padding-right: 15px;
     padding-top: 30px;
     border-left: 4px solid #ccc;
-    width: 800px;
+    width: 600px;
     align-items: center;
     } 
 
@@ -69,6 +72,7 @@ blockquote {
     padding: 20px;
     margin: auto;
     width: 600px;
+    margin: auto;
 }
 
 
@@ -121,11 +125,11 @@ blockquote {
 
 
 #comapp {  width: 400px;
-    margin: 0 auto;
+    margin: auto;
    display: block;
    margin-top: 0;
    margin-bottom: 0;
-   margin-left: 3px;
+   margin-left: 100px;
    padding-right: 10px;
    margin-right: auto;
    caption-side: bottom;
@@ -136,7 +140,7 @@ blockquote {
 
 .masthead2 {
     align-items: center;
-    margin: 0%;
-    width: 1050px;
+    width: 600px;
     padding-bottom: 30px;
+    margin: auto;
 }
