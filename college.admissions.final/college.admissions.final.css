@@ -1,10 +1,12 @@
 h1 {
-    font-size: 800px;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
     font-weight: bold;
     color: #771430;
     margin: auto;
+    max-width: 600px;
+    padding-top: 10px;
 
 }
 
@@ -12,15 +14,21 @@ h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #771430;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 50px;
     margin: auto;
+    max-width: 600px;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #771430;
     font-weight: bold;
     margin: auto;
+    max-width: 600px;
+    font-size: 17px;
+    padding-top: 10px;
+
 }
 
 .date {
@@ -29,7 +37,7 @@ h5 {
 
 
 p {
-font-size: 17px;
+font-size: 15px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 word-spacing: 9px;
 width: 600px;
@@ -38,36 +46,42 @@ margin: auto;
 
 }
 
-.masthead {
+#masthead {
     margin: auto;
-    width: 650px;
-    align-items: center;
-
+    max-width: 1000px;
+    display: block;
 }
 
-.timeline {
+#masthead2 {
+    align-items: center;
+    width: 600px;
+    padding-top: 30px;
+    margin: auto;
+    display: block;
+}
+
+#timeline {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .conatiner {
     margin: auto;
-    align-items: center;
     width: 600px;
 }
 
 
 blockquote { 
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif,;
     font-style: italic; 
  
     color: #771430;
     padding-left: 15px; 
     padding-right: 15px;
-    padding-top: 30px;
+    padding-top: 10px;
     border-left: 4px solid #ccc;
-    width: 600px;
+    max-width: 600px;
     margin: auto;
     } 
 
@@ -98,54 +112,78 @@ blockquote {
 }
 
 #harvard {
-    width: 400px;
-    margin: 0 auto;
+    width: 500px;
+    margin: auto;
    display: block;
-   margin-top: 0;
-   margin-bottom: 0;
-   margin-left: 3px;
-   padding-right: 10px;
-   margin-right: auto;
    caption-side: bottom;
    font-size: 10px;
-   float: right;
+   padding-bottom: 30px;
+   padding-top: 20px;
 }
 
 
 #usc {
-    width: 500px;
-    align-items: center;
-    margin: auto;
-    padding-bottom: 30px;
-}
-
-
-#comapp {  width: 400px;
-    margin: auto;
-   display: block;
-   margin-top: 0;
-   margin-bottom: 0;
-   margin-left: 100px;
-   padding-right: 10px;
-   margin-right: auto;
-   caption-side: bottom;
-   font-size: 10px;
-   float: right;
-
-}
-
-.masthead2 {
-    align-items: center;
     width: 600px;
-    padding-bottom: 30px;
+    align-items: center;
     margin: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 10px;
 }
+
+
+#comapp {  
+    width: 400px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    font-size: 10px;
+}
+
 
 
 #satimg {
     width: 300px;
     align-items: center;
     margin: auto;
+    padding-top: 10px;
     padding-bottom: 30px;
+    font-size: 10px;
 
+}
+
+#didyouknow {
+    width: 700px;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+#didyouknow p {
+    font-size: 20px;
+}
+
+#blurb {
+    width: 700px;
+    align-items: center;
+    margin: auto;
+    font-size: 12px;
+    background-color: rgba(183, 175, 146, 0.241);
+    border-bottom: 3px;
+    border-top: 3px;
+  
+}
+
+#needspadding {
+    padding-bottom: 20px;
+}
+
+
+#needspadding2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
