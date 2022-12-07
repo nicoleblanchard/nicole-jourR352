@@ -155,31 +155,31 @@ blockquote {
 }
 
 #didyouknow {
-    width: 600px;
+    max-width: 630px;
     align-items: center;
     margin: auto;
     font-size: 20px;
     border-bottom: 3px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: #771430;
 }
 
 #didyouknow p {
     font-size: 20px;
     font-style: italic;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 #blurb {
-    width: 600px;
+    width: 630px;
     align-items: center;
     margin: auto;
     font-size: 12px;
-    background-color: rgba(183, 175, 146, 0.241);
+    background-color: rgba(222, 172, 167, 0.208);
     border-bottom: 3px;
     border-top: 3px;
     border-style: solid;
-    border-color: #ccc;
+    border-color:#771430;
 
 }
 
